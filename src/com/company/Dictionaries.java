@@ -14,6 +14,9 @@ public class Dictionaries {
     public static String[] getSurnames() {
         return surnames;
     }
+    public static void setSurnames(String[] surnames) {
+        Dictionaries.surnames = surnames;
+    }
 
     private static String[] genres = {
             "Поп",
@@ -30,6 +33,9 @@ public class Dictionaries {
 
     public static String[] getGenres() {
         return genres;
+    }
+    public static void setGenres(String[] genres) {
+        Dictionaries.genres = genres;
     }
 
     private static String[] names = {
@@ -50,6 +56,9 @@ public class Dictionaries {
     public static String[] getNames() {
         return names;
     }
+    public static void setNames(String[] names) {
+        Dictionaries.names = names;
+    }
 
     private  static String[] positions = {
             "Администратор",
@@ -63,4 +72,7 @@ public class Dictionaries {
     };
 
     public static String[] getPositions() {return positions;}
+    public static void setPositions(String[] positions) {
+        Dictionaries.positions = positions;
+    }
 }
