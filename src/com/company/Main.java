@@ -11,6 +11,27 @@ public class    Main {
     public static Random r = new Random();
 
     public static void main(String[] args) {
+        // Base Lvl
+        /*Albums albums = new Albums();
+
+        albums.fillRandom(10);
+
+        System.out.println(albums);
+
+        System.out.println("\n\n\nEdition > 10000: \n" + albums.findGreater1000());*/
+
+        ///////////////////////////////////////////////////
+
+        // Medium Lvl
+
+        Contracts contracts = new Contracts();
+
+        contracts.RandomContract(10);
+
+        System.out.println(contracts);
+
+        System.out.println("\n\n\nРаботники, контракт которых истекает в течении 5-ти дней: \n" + contracts.findTerm_5day());
+        /*
         // Base lvl
         System.out.print("Введите количество альбомов: ");
         int num = InputQuantity();
@@ -27,6 +48,8 @@ public class    Main {
         List<String> time = new ArrayList<>(contract.length);
         InputContract(contract, time, num);
         OutputContract(contract, time, num);
+        */
+
     }
 
     public static int InputQuantity() {
